@@ -1,0 +1,7 @@
+version: '3'
+services:
+  meshconf:
+    # image: mmmaxwwwell/wg-meshconf-docker
+    build: .
+    volumes:
+    - ./appdata/wg-meshconf/data:/home/agent
